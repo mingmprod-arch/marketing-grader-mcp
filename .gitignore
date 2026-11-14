@@ -1,0 +1,13 @@
+# Never commit credentials, sessions, local reports or dependencies.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.sqlite
+*.sqlite3
+*.db
+*.log
+node_modules/
+.venv/
+.DS_Store

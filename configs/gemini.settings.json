@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "marketing-grader": {
+      "httpUrl": "https://grader.recmoment.net/mcp"
+    }
+  }
+}

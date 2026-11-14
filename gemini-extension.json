@@ -1,0 +1,10 @@
+{
+  "name": "marketing-grader",
+  "version": "0.1.0",
+  "description": "Review your saved Marketing Grader brand content and marketing reports with read-only MCP tools.",
+  "mcpServers": {
+    "marketing-grader": {
+      "httpUrl": "https://grader.recmoment.net/mcp"
+    }
+  }
+}

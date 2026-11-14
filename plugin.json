@@ -1,0 +1,44 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "marketing-grader",
+  "version": "0.1.0",
+  "description": "Read saved brand DNA, content calendars, drafts and marketing results from Marketing Grader.",
+  "author": {
+    "name": "Marketing Grader",
+    "url": "https://grader.recmoment.net"
+  },
+  "homepage": "https://grader.recmoment.net/mcp-info",
+  "keywords": [
+    "mcp",
+    "marketing",
+    "analytics",
+    "read-only"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Marketing Grader",
+        "shortDescription": "Review brand content and saved results",
+        "longDescription": "Connect your Marketing Grader account to review your brands, saved social drafts, content calendar, account connections, recorded post performance and saved advertising strategy. You can also read saved Search Console and GA4 reports for the exact properties you explicitly allow. The assistant can explain these records or draft ideas in the conversation. The MCP connection has nine read-only tools; it cannot save drafts, generate images, publish posts, send email, modify websites or ads, spend money or process payments. Google data is a saved snapshot, not a live refresh. Missing results remain unknown.",
+        "developerName": "Marketing Grader",
+        "category": "Productivity",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://grader.recmoment.net/mcp-info",
+        "privacyPolicyURL": "https://grader.recmoment.net/privacy",
+        "termsOfServiceURL": "https://grader.recmoment.net/terms",
+        "supportURL": "https://grader.recmoment.net/terms#s19",
+        "composerIcon": "./assets/marketing-grader.svg",
+        "logo": "./assets/marketing-grader.svg",
+        "brandColor": "#0b3658",
+        "brandColorDark": "#8dc9f3",
+        "defaultPrompt": [
+          "List my available brands, then ask which one to use.",
+          "For my selected brand, summarize scheduled social drafts and SEO plans. Keep plans separate from published posts.",
+          "Compare saved 24-hour and seven-day post results. Show missing data as unknown and include timestamps."
+        ]
+      }
+    }
+  }
+}

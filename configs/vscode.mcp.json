@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "marketing-grader": {
+      "type": "http",
+      "url": "https://grader.recmoment.net/mcp"
+    }
+  }
+}

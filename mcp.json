@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "marketing-grader": {
+      "type": "streamable-http",
+      "url": "https://grader.recmoment.net/mcp"
+    }
+  }
+}
