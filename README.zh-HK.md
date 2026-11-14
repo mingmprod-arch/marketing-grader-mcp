@@ -2,9 +2,13 @@
 
 [English](README.md)
 
-<img src="assets/marketing-grader.svg" alt="Marketing Grader" width="80" height="80">
+<img src="assets/marketing-grader.svg" alt="Marketing Grader 標誌" width="112" height="112">
 
-喺 AI 助手查看自己品牌嘅 DNA、已存圖文同已記錄行銷成效。呢個 repo 只提供連接設定同使用說明，唔包括 Marketing Grader 後端程式。
+**品牌、內容同行銷成效，集中一個工作區。**
+
+[Marketing Grader](https://grader.recmoment.net/) 係為香港中小企同行銷工作室而設嘅 AI 行銷工作台。集中整理品牌 DNA 同產品資料，準備社交文案及品牌海報、安排內容、製作 SEO 文章及電郵內容，再查看已記錄嘅行銷成效。網站整合功能按相關平台嘅授權及開通狀態使用。
+
+**將工作區連入你嘅 AI 助手。** 呢個 MCP 套件提供九個唯讀工具，查看自己品牌已存嘅 DNA、內容同成效。Repo 只提供連接設定同使用說明，唔包括 Marketing Grader 後端；網站功能同 MCP 可執行嘅功能分開列明如下。
 
 **遠端連接：** `https://grader.recmoment.net/mcp`
 

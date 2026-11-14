@@ -2,9 +2,13 @@
 
 [繁體中文／廣東話](README.zh-HK.md)
 
-<img src="assets/marketing-grader.svg" alt="Marketing Grader" width="80" height="80">
+<img src="assets/marketing-grader.svg" alt="Marketing Grader logo" width="112" height="112">
 
-Review your brand DNA, saved content and recorded marketing results from your AI assistant. This repository contains connection manifests and setup guides for the hosted Marketing Grader MCP service. It does not contain the Marketing Grader backend.
+**Your brand, content and marketing results in one workspace.**
+
+[Marketing Grader](https://grader.recmoment.net/) is an AI marketing workspace for Hong Kong small businesses and marketing studios. Organise brand DNA and product information, prepare social copy and branded posters, plan content, work on SEO articles and email content, and review recorded marketing performance. Website integrations depend on the relevant platform's permissions and availability.
+
+**Connect your workspace to your AI assistant.** This MCP package provides nine read-only tools for your saved brand DNA, content and recorded results. It contains connection manifests and setup guides, not the Marketing Grader backend. Website features and the MCP connection have different capabilities, as set out below.
 
 **Remote server:** `https://grader.recmoment.net/mcp`
 

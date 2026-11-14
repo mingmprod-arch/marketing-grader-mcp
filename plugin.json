@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "marketing-grader",
-  "version": "0.1.0",
-  "description": "Read saved brand DNA, content calendars, drafts and marketing results from Marketing Grader.",
+  "version": "0.1.1",
+  "description": "Connect your Marketing Grader workspace to review saved brand content and marketing results with read-only MCP tools.",
   "author": {
     "name": "Marketing Grader",
     "url": "https://grader.recmoment.net"
@@ -18,14 +18,14 @@
     "com.openai": {
       "interface": {
         "displayName": "Marketing Grader",
-        "shortDescription": "Review brand content and saved results",
-        "longDescription": "Connect your Marketing Grader account to review your brands, saved social drafts, content calendar, account connections, recorded post performance and saved advertising strategy. You can also read saved Search Console and GA4 reports for the exact properties you explicitly allow. The assistant can explain these records or draft ideas in the conversation. The MCP connection has nine read-only tools; it cannot save drafts, generate images, publish posts, send email, modify websites or ads, spend money or process payments. Google data is a saved snapshot, not a live refresh. Missing results remain unknown.",
+        "shortDescription": "Your brand content and results, together",
+        "longDescription": "Marketing Grader is an AI marketing workspace for Hong Kong small businesses and marketing studios. Organise brand DNA and product information, prepare social copy and branded posters, plan content, work on SEO articles and email content, and review recorded marketing performance. Website integrations depend on the relevant platform permissions and availability.\n\nThis MCP connection provides nine read-only tools for your own brands: saved DNA, drafts, calendar, social connection status, post results, advertising strategy, and explicitly granted Search Console/GA4 snapshots. It cannot save drafts, generate images, publish posts, send email, export contact lists, modify websites or ads, spend money or process payments. Google reports are saved snapshots, not live refreshes. Missing results remain unknown.",
         "developerName": "Marketing Grader",
         "category": "Productivity",
         "capabilities": [
           "Read"
         ],
-        "websiteURL": "https://grader.recmoment.net/mcp-info",
+        "websiteURL": "https://grader.recmoment.net/",
         "privacyPolicyURL": "https://grader.recmoment.net/privacy",
         "termsOfServiceURL": "https://grader.recmoment.net/terms",
         "supportURL": "https://grader.recmoment.net/terms#s19",

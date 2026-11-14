@@ -1,7 +1,7 @@
 {
   "name": "marketing-grader",
-  "version": "0.1.0",
-  "description": "Review your saved Marketing Grader brand content and marketing reports with read-only MCP tools.",
+  "version": "0.1.1",
+  "description": "Connect the Marketing Grader AI marketing workspace to review your own saved brand content and performance with nine read-only tools.",
   "mcpServers": {
     "marketing-grader": {
       "httpUrl": "https://grader.recmoment.net/mcp"
